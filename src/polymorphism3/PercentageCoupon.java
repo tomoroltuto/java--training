@@ -11,7 +11,8 @@ public class PercentageCoupon implements Coupon {
 		this.rate = rate;
 	}
 
-	public int discount(int amount) {
+	//discountメソッド作成　rateがdoubleなのでintに変換する
+	public int discount(int amount) {		
 		return (int) (amount * rate);
 	}
 }
