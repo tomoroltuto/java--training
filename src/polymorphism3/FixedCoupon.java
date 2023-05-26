@@ -11,7 +11,7 @@ public class FixedCoupon implements Coupon {
 		this.discountAmount = discountAmount;
 	}
 
-	//discountめ
+	//discountメソッド作成
 	public int discount(int amount) {
 		return amount - discountAmount;
 	}

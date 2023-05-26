@@ -9,10 +9,10 @@ public class Quiz {
 	}
 
 	public void displayHeader() {
-		System.out.println("次の問いに答えなさい");
+		System.out.println("「次の問いに答えなさい」");
 	}
 
-	void displayMain() {
+	public void displayMain() {
 		System.out.println(main);
 	}
 }
